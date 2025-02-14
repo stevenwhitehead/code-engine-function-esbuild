@@ -1,0 +1,20 @@
+{
+  "name": "code-engine-function-esbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "esbuild-plugin-tsc": "^0.4.0",
+    "ts-loader": "^8.4.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
